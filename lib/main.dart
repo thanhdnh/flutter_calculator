@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                labelText: "0"
+                labelText: "First Number:"
               ),
             ),
             TextField(
@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
                   border: OutlineInputBorder(),
-                  labelText: "0",
+                  labelText: "Second Number:",
               ),
             ),
             ElevatedButton(onPressed: on_press, child: const Text("Add")),
